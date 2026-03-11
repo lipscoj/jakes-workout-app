@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "JakesWorkoutApp",
-    "slug": "JakesWorkoutApp",
+    "name": "Bigfoot Training Companion",
+    "slug": "bigfoot-training-companion",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,7 +24,12 @@
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "output": "static",
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }

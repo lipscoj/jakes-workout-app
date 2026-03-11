@@ -2,9 +2,11 @@
 
 # dependencies
 node_modules/
+node-v*/
 
 # Expo
 .expo/
+.vercel/
 dist/
 web-build/
 expo-env.d.ts
